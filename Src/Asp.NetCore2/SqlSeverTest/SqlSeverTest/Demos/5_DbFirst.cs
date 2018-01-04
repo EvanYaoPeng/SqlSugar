@@ -56,7 +56,9 @@ namespace OrmTest.Demo
            /// Desc_New:{PropertyDescription}
            /// Default_New:{DefaultValue}
            /// Nullable_New:{IsNullable}
-           /// </summary>";
+           /// </summary>
+                [Description({PropertyDescription})]"
+            ;
                })
                 .SettingPropertyTemplate(old =>
                 {

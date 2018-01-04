@@ -24,7 +24,7 @@
     string solutionDir = Host.ResolveAssemblyReference("$(SolutionDir)");
 
  
-	 var db = new SqlSugarClient(new ConnectionConfig() { ConnectionString =  "server=.;uid=sa;pwd=sasa;database=SqlSugar4XTest", DbType = DbType.SqlServer, IsAutoCloseConnection = true });
+	 var db = new SqlSugarClient(new ConnectionConfig() { ConnectionString =  "server=.;uid=sa;pwd=rich123456;database=SqlSugar4XTest", DbType = DbType.SqlServer, IsAutoCloseConnection = true });
       db.DbFirst.CreateClassFile("c:\\T4");
      
 #>
